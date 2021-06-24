@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "word": "q",
+      "replacement": "que",
+      "type": "general"
+    },
+    {
+      "word": "abs",
+      "replacement": "abraços",
+      "type": "general"
+    },
+    {
+      "word": "n",
+      "replacement": "não",
+      "type": "general"
+    },
+    {
+      "word": "tô",
+      "replacement": "estou",
+      "type": "general"
+    }
+  ]
+}
