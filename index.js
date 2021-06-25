@@ -17,7 +17,6 @@ class App {
     this.errorHandler = require('./src/commons/handler/error.handler');
     this.jwtMiddleware = require('./src/commons/middleware/jwt.middleware');
     this.connectionController = require('./src/commons/db/connection.controller');
-    this.seedFactory = require('./src/commons/factories/seed.factory');
     this.cors = require('cors');
     this.middlewares();
     this.routes();
@@ -30,7 +29,6 @@ class App {
       let whitelist = [process.env.DOMAIN_INTERNET,
         'http://localhost:3000',
         'http://localhost:8082',
-        'http://tcc-node.s3-website.us-east-2.amazonaws.com',
         undefined];
       let corsOptions = {
         credentials: true,

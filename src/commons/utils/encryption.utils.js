@@ -1,3 +1,5 @@
+// Not a class for some reason
+
 const crypto = require('crypto');
 const algorithm = 'aes-256-cbc';
 const key = Buffer.alloc(32, 'aGVsbG8gd29ybGQghfghfghasdasdasd', 'utf-8');
